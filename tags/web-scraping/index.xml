@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Scraping on Kaushal Jyanni</title>
+    <link>https://kaushaljyanni.github.io/tags/web-scraping.xml</link>
+    <description>Recent content in Web Scraping on Kaushal Jyanni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Kaushal Jyanni</copyright>
+    <atom:link href="/tags/web-scraping.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Cricket Data Scraper</title>
+      <link>https://kaushaljyanni.github.io/project/bcci.html</link>
+      <pubDate>Thu, 06 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaushaljyanni.github.io/project/bcci.html</guid>
+      <description>&lt;p&gt;This project was undertaken by me during my intern period at &lt;a href=&#34;//seehow.io/&#34;&gt;SeeHow&lt;/a&gt;. The aim was to get speed data for various bowlers which can be later used for benchmarking in the product. The code gets data from &lt;a href=&#34;//bcci.tv/&#34;&gt;bcci&lt;/a&gt; and &lt;a href=&#34;//iplt20.com&#34;&gt;ipl&lt;/a&gt; websites.&lt;/p&gt;
+
+&lt;p&gt;The backend uses selenium to get data from the websites and stores in a sqlite database. A query system was also made to get different kinds of data from the database. Then python framework flask was used to change the code into a webapp.&lt;/p&gt;
+
+&lt;p&gt;Feel free to contact me to know more.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

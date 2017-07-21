@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kaushal Jyanni on Kaushal Jyanni</title>
+    <link>https://kaushaljyanni.github.io/index.xml</link>
+    <description>Recent content in Kaushal Jyanni on Kaushal Jyanni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Kaushal Jyanni</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Cricket Data Scraper</title>
+      <link>https://kaushaljyanni.github.io/project/bcci.html</link>
+      <pubDate>Thu, 06 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaushaljyanni.github.io/project/bcci.html</guid>
+      <description>&lt;p&gt;This project was undertaken by me during my intern period at &lt;a href=&#34;//seehow.io/&#34;&gt;SeeHow&lt;/a&gt;. The aim was to get speed data for various bowlers which can be later used for benchmarking in the product. The code gets data from &lt;a href=&#34;//bcci.tv/&#34;&gt;bcci&lt;/a&gt; and &lt;a href=&#34;//iplt20.com&#34;&gt;ipl&lt;/a&gt; websites.&lt;/p&gt;
+
+&lt;p&gt;The backend uses selenium to get data from the websites and stores in a sqlite database. A query system was also made to get different kinds of data from the database. Then python framework flask was used to change the code into a webapp.&lt;/p&gt;
+
+&lt;p&gt;Feel free to contact me to know more.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>N-Body Simulation Using CUDA</title>
+      <link>https://kaushaljyanni.github.io/project/n-body.html</link>
+      <pubDate>Thu, 06 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaushaljyanni.github.io/project/n-body.html</guid>
+      <description>&lt;p&gt;The project was mainly aimed at providing an introduction to parallel computing rather than designing an application. The basics and the core concepts of parallel computing were studied from a mooc at UDACITY. After the semester long learning we decided to create a simulator of n-body particles.&lt;/p&gt;
+
+&lt;p&gt;In physics, the n-body problem is the problem of predicting the individual motions of a group of celestial objects interacting with each other gravitationally. The code was written in C++ and ran on CUDA (a parallel computing platform provided by NVIDIA) to increase the computational efficency which resulted in a great boosting compared to serial version of same code. The visualisation part was done on openCV.&lt;/p&gt;
+
+&lt;p&gt;The project provided a great insight into the GPU hardware and the domain of parallel computing.&lt;/p&gt;
+
+&lt;p&gt;Below is the GitHub link for the repository of the code. Feel Free to contact me to know more.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;//github.com/mrinaald/n-body-simulation&#34;&gt;Repository&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Poisson Equation Solver</title>
+      <link>https://kaushaljyanni.github.io/project/poisson.html</link>
+      <pubDate>Thu, 06 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaushaljyanni.github.io/project/poisson.html</guid>
+      <description>&lt;p&gt;This summer project was an intensive application of the concepts learned in the earlier n-body simulation project.&lt;/p&gt;
+
+&lt;p&gt;The aim was to create a multi-grid solver for the Poisson’s equation. The project was supervised by professor M.K. Verma. The existing serial code was changed into parallel approach to get the three dimension grid of unknown values in a Jacobian iterator method. The reason was the same that a parallel approach using GPUs could provide much greater computational speeds.&lt;/p&gt;
+
+&lt;p&gt;Belows is the link for the github repository of the code. Feel free to contact me to know more about it.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;//github.com/AkashKrDutta/multigrid&#34;&gt;Repository&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
